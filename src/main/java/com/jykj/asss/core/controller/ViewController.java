@@ -19,8 +19,14 @@ public class ViewController {
         return targetUrl;
 	}
 	
+	/**登陆页*/
 	@RequestMapping(value = "/login")
     public ModelAndView toLogin() {
         return new ModelAndView("/jsp/login");
+    }
+	/**首页*/
+	@RequestMapping(value = "/index")
+    public ModelAndView toIndex() {
+        return new ModelAndView("/index");
     }
 }
