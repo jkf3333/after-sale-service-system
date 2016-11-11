@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="骄阳科技售后服务系统">
 <meta name="author" content="jkf3333@126.com">
+<link rel="shortcut icon" href="<c:url value='/ico/jykj.ico'/>" type="image/x-icon" />
 <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="<c:url value='/wfui/js/html5shiv.min.js'/>"></script>

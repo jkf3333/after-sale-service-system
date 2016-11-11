@@ -103,7 +103,7 @@ public class ControllerPermissionsInterceptor implements HandlerInterceptor {
 	private boolean noPass(String msg, HttpServletRequest request, HttpServletResponse response) {
 		response.setStatus(HttpServletResponse.SC_PAYMENT_REQUIRED);
 		response.setCharacterEncoding("UTF-8");
-        String loginPath = request.getContextPath() + "/" + Constants.LOGIN_PAGE;
+        String loginPath = request.getContextPath() + Constants.LOGIN_PAGE;
         PrintWriter writer;
 		try {
 			writer = response.getWriter();
