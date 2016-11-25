@@ -1,6 +1,11 @@
 package com.jykj.asss.core.controller;
 
 
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,11 +27,6 @@ public class ViewController {
 	/**登陆页*/
 	@RequestMapping(value = "/login")
     public ModelAndView toLogin() {
-        return new ModelAndView("/jsp/login");
-    }
-	/**首页*/
-	@RequestMapping(value = "/index")
-    public ModelAndView toIndex() {
-        return new ModelAndView("/index");
+        return new ModelAndView("/login");
     }
 }

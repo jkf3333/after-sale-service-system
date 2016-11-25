@@ -10,7 +10,7 @@ public class Constants {
     public static final String SESSION_KEY_USER_INFO ="SESSION_KEY_USER_INFO";
     
     /**登录页面**/
-    public static final String LOGIN_PAGE = "/jsp/login.jsp";
+    public static final String LOGIN_PAGE = "/login.jsp";
     /**session存用户的菜单权限**/
 	public static final String SESSION_USER_MENU = "SESSION_USER_MENU";
 }

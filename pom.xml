@@ -172,7 +172,7 @@
 	    </repository>
 	</repositories>
 	<build>
-	    <finalName>JykjAsss</finalName>
+	    <finalName>jykjasss</finalName>
 	    <plugins>
 	        <plugin>
 	            <groupId>org.apache.maven.plugins</groupId>

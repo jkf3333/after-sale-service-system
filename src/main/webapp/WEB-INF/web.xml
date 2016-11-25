@@ -4,7 +4,7 @@
          id="WebApp_ID" version="3.0">
     <display-name>jykjasss</display-name>
     <welcome-file-list>
-        <welcome-file>/index.do</welcome-file>
+        <welcome-file>/login.do</welcome-file>
     </welcome-file-list>
     <!-- 配置springmvc核心servlet-->
     <servlet>
